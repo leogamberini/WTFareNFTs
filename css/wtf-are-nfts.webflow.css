@@ -938,6 +938,7 @@ body {
 
 .trad-vs-dig-section {
   display: block;
+  overflow: visible;
   height: auto;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -1042,6 +1043,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   height: 760px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -1421,6 +1423,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: visible;
   height: 80px;
   margin-top: 139px;
   margin-bottom: -62px;
@@ -1498,6 +1501,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: visible;
   height: 80px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -1516,8 +1520,8 @@ body {
 
 .div-block-101 {
   position: relative;
-  left: 693px;
-  top: -309px;
+  left: 489px;
+  top: -264px;
   z-index: 500;
   width: 500px;
   padding: 41px;
@@ -1537,6 +1541,11 @@ body {
   left: 576px;
   top: -162px;
   width: 350px;
+}
+
+.div-block-101._2 {
+  left: 747px;
+  top: -304px;
 }
 
 .image-31 {
@@ -1929,7 +1938,7 @@ body {
 
 .div-block-101-copy {
   position: relative;
-  left: 757px;
+  left: 696px;
   top: -161px;
   z-index: 500;
   width: 500px;
@@ -2082,6 +2091,8 @@ body {
 }
 
 .text-block-4 {
+  position: relative;
+  z-index: 600;
   margin-top: 9px;
   margin-bottom: 9px;
   font-family: roc-grotesk, sans-serif;
@@ -2140,6 +2151,142 @@ body {
 
 .container-23 {
   margin-top: 133px;
+}
+
+.footer {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 320px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #d1d1d1;
+}
+
+.footer.smaller {
+  height: 400px;
+}
+
+.container-24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -30px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.div-block-207 {
+  width: 230px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.div-block-208 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.div-block-209 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.div-block-210 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.text-block-5 {
+  font-family: roc-grotesk, sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.italic-text {
+  font-style: normal;
+}
+
+.text-span-53 {
+  font-weight: 700;
+}
+
+.image-107 {
+  width: auto;
+  height: 50px;
+}
+
+.div-block-211 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.image-108 {
+  width: auto;
+  height: 50px;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+
+.div-block-207-copy {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.image-109 {
+  margin-right: 8px;
+}
+
+.image-110 {
+  margin-right: 8px;
+}
+
+.text-block-6 {
+  padding-left: 22px;
+  font-family: roc-grotesk, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.image-111 {
+  position: relative;
+  left: -72px;
+  top: 35px;
+}
+
+.image-112 {
+  position: relative;
+  left: -88px;
+  top: 52px;
 }
 
 @media screen and (max-width: 767px) {
@@ -2326,6 +2473,13 @@ body {
 }
 
 #w-node-_60d86a15-c428-fa4a-da94-fb99790b9c31-61266c1a {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_807b8456-014a-e795-5cee-fa881d9f4cbc-61266c1a {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
