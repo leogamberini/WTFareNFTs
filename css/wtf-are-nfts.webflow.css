@@ -500,6 +500,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   height: 450px;
   margin-top: 0px;
   margin-bottom: 60px;
@@ -594,6 +595,9 @@ body {
 }
 
 .slide {
+  overflow: visible;
+  width: 100%;
+  height: 100%;
   margin-right: 32px;
 }
 
@@ -1544,8 +1548,9 @@ body {
 }
 
 .div-block-101._2 {
-  left: 747px;
+  left: 700px;
   top: -304px;
+  width: 480px;
 }
 
 .image-31 {
@@ -2473,13 +2478,6 @@ body {
 }
 
 #w-node-_60d86a15-c428-fa4a-da94-fb99790b9c31-61266c1a {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-}
-
-#w-node-_807b8456-014a-e795-5cee-fa881d9f4cbc-61266c1a {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
