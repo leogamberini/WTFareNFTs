@@ -65,6 +65,7 @@ body {
 }
 
 .nav-link {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -123,10 +124,9 @@ body {
   height: 40px;
   padding-right: 43px;
   padding-left: 43px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -533,7 +533,7 @@ body {
   display: flex;
   overflow: hidden;
   height: 450px;
-  margin-top: 0px;
+  margin-top: 62px;
   margin-bottom: 60px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -1002,7 +1002,7 @@ body {
 }
 
 .paragraph-5.half {
-  margin-top: 21px;
+  margin-top: 58px;
   margin-bottom: 21px;
   padding-top: 0px;
   padding-right: 60%;
