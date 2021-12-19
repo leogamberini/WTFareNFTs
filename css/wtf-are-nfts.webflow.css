@@ -608,11 +608,13 @@ body {
 
 .slider-image {
   position: relative;
-  width: auto;
+  top: -1px;
+  right: 3px;
+  width: 242px;
   height: auto;
-  max-width: 106%;
-  margin-top: -4px;
-  margin-left: -8px;
+  max-width: none;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 .slider-dib {
