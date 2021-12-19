@@ -466,11 +466,6 @@ body {
   height: 400px;
 }
 
-.section-6.smaller-copy {
-  overflow: hidden;
-  height: 200px;
-}
-
 .popup-box {
   position: absolute;
   left: 0%;
@@ -1016,7 +1011,7 @@ body {
 
 .trad-vs-dig-section {
   display: block;
-  overflow: hidden;
+  overflow: visible;
   height: auto;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -1707,7 +1702,6 @@ body {
 
 .block {
   position: static;
-  overflow: visible;
   height: 800px;
 }
 
