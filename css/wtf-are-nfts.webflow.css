@@ -1059,6 +1059,10 @@ body {
   column-count: 2;
 }
 
+.paragraph-5._2-col.normal {
+  height: auto;
+}
+
 .paragraph-5.key {
   left: -656px;
   top: -52px;
@@ -2444,13 +2448,13 @@ body {
 
 .image-111 {
   position: relative;
-  left: -72px;
+  left: -73px;
   top: 35px;
 }
 
 .image-112 {
   position: relative;
-  left: -88px;
+  left: -89px;
   top: 52px;
 }
 
