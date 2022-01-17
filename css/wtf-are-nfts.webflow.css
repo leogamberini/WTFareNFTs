@@ -819,6 +819,11 @@ body {
   padding-left: 13%;
 }
 
+.important-text.trad-art-intro.special {
+  font-size: 35px;
+  line-height: 35px;
+}
+
 .linking {
   position: relative;
   display: -webkit-box;
@@ -1706,6 +1711,11 @@ body {
   width: 500px;
   padding-right: 27px;
   padding-left: 27px;
+}
+
+.div-block-101._2.container-11-2 {
+  padding-top: 19px;
+  padding-bottom: 19px;
 }
 
 .image-31 {
