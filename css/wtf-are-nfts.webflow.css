@@ -1702,8 +1702,10 @@ body {
 
 .div-block-101._2 {
   left: 700px;
-  top: -255px;
-  width: 480px;
+  top: -286px;
+  width: 500px;
+  padding-right: 27px;
+  padding-left: 27px;
 }
 
 .image-31 {
@@ -1874,7 +1876,7 @@ body {
 }
 
 .text-span-45 {
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .text-span-46 {
@@ -2682,6 +2684,10 @@ body {
 
 .image-117.differ {
   position: relative;
+}
+
+.text-span-56 {
+  font-size: 29px;
 }
 
 @media screen and (max-width: 767px) {
